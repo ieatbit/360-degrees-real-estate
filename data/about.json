@@ -1,0 +1,26 @@
+{
+  "title": "About Us",
+  "subtitle": "Learn more about our real estate company",
+  "mainContent": "Discover the essence of elevated living with our premier real estate company. Specializing in luxury properties across Uttarakhand, we offer handpicked villas, cottages, bungalows, and scenic plots nestled in the heart of the Himalayas. With a commitment to excellence, transparency, and personalized service, we help you find not just a property—but a place to truly belong",
+  "mission": "To connect discerning buyers with exceptional properties in Uttarakhand, offering a seamless experience rooted in trust, transparency, and a deep love for the Himalayas",
+  "vision": "To be the leading name in luxury mountain real estate, crafting timeless living experiences where nature, elegance, and serenity come together",
+  "bannerImage": "/uploads/home-content/section-about-banner-1744704004161-4161-house-8458547-1280.jpg?t=1744704004161",
+  "teamSection": {
+    "title": "Our Team",
+    "subtitle": "Meet the people who make it all happen",
+    "members": []
+  },
+  "updatedAt": "2025-04-19T18:01:41.785Z",
+  "ceoSection": {
+    "name": "Sumeet Kumar Vohra",
+    "position": "Chief Executive Officer",
+    "bio": "Our CEO brings more than a decade and a half of hands‑on expertise in India’s real estate arena to every decision, with a special focus on Uttarakhand. Having navigated the region’s evolving regulatory landscape, seasonal market fluctuations, and unique geographic challenges—from the hill‑station charm of Nainital to the pilgrimage‑driven demand in Haridwar—he leverages deep local insights to identify high‑potential properties and negotiate optimal terms. His proven track record of guiding investors through everything from luxury retreat developments to sustainable hillside communities ensures our clients benefit from strategic advice, robust risk management, and unparalleled access to prime opportunities across Uttarakhand",
+    "imageUrl": "/uploads/about-content/section-ceo-profile-1745053696817-6817-whatsapp-image-2025-04-18-at-16.34.50.jpeg?t=1745053696817",
+    "socialLinks": {
+      "facebook": "",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": ""
+    }
+  }
+}

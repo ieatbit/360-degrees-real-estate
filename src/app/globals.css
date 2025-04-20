@@ -1,0 +1,335 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #0F2C5A; /* Navy blue */
+  --primary-dark: #081B3A; /* Dark navy */
+  --primary-light: #1A3E73; /* Light navy */
+  --secondary-color: #D4AF37; /* Gold accent */
+  --secondary-dark: #C5A028;
+  --text-color: #212121;
+  --background-color: #F8F7F2;
+  --header-height: 80px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Header */
+header {
+  background-color: var(--primary-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+header nav ul li a {
+  color: white;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+header nav ul li a:hover {
+  color: var(--secondary-color);
+}
+
+/* Home hero section */
+.hero {
+  background-color: var(--primary-color);
+  background-image: linear-gradient(to bottom, var(--primary-color), var(--primary-dark));
+  color: white;
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  max-width: 800px;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow: 0 2px 4px rgba(15, 44, 90, 0.3);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(15, 44, 90, 0.4);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: var(--primary-dark);
+  box-shadow: 0 2px 4px rgba(212, 175, 55, 0.3);
+}
+
+.btn-secondary:hover {
+  background-color: var(--secondary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(212, 175, 55, 0.4);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--primary-dark);
+  color: white;
+  padding: 4rem 0 2rem;
+}
+
+.footer-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.8);
+  transition: color 0.2s;
+}
+
+.footer-link:hover {
+  color: var(--secondary-color);
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.social-icon:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 2rem;
+  margin-top: 2rem;
+}
+
+/* Property Cards */
+.property-card {
+  background-color: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-top: 3px solid var(--primary-color);
+}
+
+.property-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.15);
+}
+
+.property-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.property-card-content {
+  padding: 1.5rem;
+}
+
+.property-card-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.property-card-location {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.property-card-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+  color: #666;
+}
+
+/* Form elements */
+input, select, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(15, 44, 90, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+/* Search filters */
+.search-filters {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-left: 4px solid var(--primary-color);
+}
+
+/* Custom properties for consistent spacing and colors */
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+/* Navy Blue Theme */
+.navy-theme {
+  --primary-color: #0F2C5A;
+  --primary-dark: #081B3A;
+  --primary-light: #1A3E73;
+  --text-color: #333;
+  --background-color: #F0F4F9;
+}
+
+/* Navy UI Components */
+.navy-card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(15, 44, 90, 0.08);
+  border-top: 3px solid #0F2C5A;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.navy-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(15, 44, 90, 0.12);
+}
+
+.navy-btn {
+  background-color: #0F2C5A;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  transition: all 0.3s;
+  display: inline-block;
+}
+
+.navy-btn:hover {
+  background-color: #081B3A;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(15, 44, 90, 0.3);
+}
+
+.navy-gradient {
+  background: linear-gradient(to right, #0F2C5A, #1A3E73);
+}
+
+.navy-badge {
+  background-color: #1A3E73;
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+}
+
+.navy-text-shadow {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navy-section {
+  background-color: #F0F4F9;
+  padding: 3rem 0;
+  border-top: 1px solid rgba(15, 44, 90, 0.1);
+  border-bottom: 1px solid rgba(15, 44, 90, 0.1);
+}
+
+/* Select Styling */
+select {
+  color: #0F2C5A;
+  font-weight: 500;
+}
+
+select option {
+  color: #0F2C5A;
+  font-weight: normal;
+}
+
+select option:first-child {
+  font-weight: 500;
+}
+
+/* Make sure select boxes show their content clearly */
+select:required:invalid {
+  color: #0F2C5A;
+}
+
+/* Style for placeholder text in selects */
+select option[value=""] {
+  color: #0F2C5A;
+}
+
+/* Make sure option text is visible */
+.search-form select {
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%230F2C5A' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3E%3C/svg%3E");
+  background-position: right 0.5rem center;
+  background-repeat: no-repeat;
+  background-size: 1.5em 1.5em;
+  padding-right: 2.5rem;
+}

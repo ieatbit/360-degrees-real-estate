@@ -1,0 +1,43 @@
+{
+  "title": "Contact Us",
+  "subtitle": "We're here to assist you with any queries about Uttarakhand properties",
+  "heroImage": "/uploads/contact-hero-782b1457-93ee-481a-922b-489a591aa878.jpeg",
+  "getInTouchText": "Whether you're looking to buy, sell, or lease property in Uttarakhand, our team of experts is ready to assist you. Fill out the form, and we'll get back to you as soon as possible.",
+  "officeLocation": {
+    "address": "Mall Road, Almora, Uttarakhand",
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27561.837268764513!2d79.63896734226673!3d29.59738209931433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0b7328910d81f%3A0x9811d25dd87d8ed3!2sAlmora%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1710236428824!5m2!1sen!2sin",
+    "showMap": true
+  },
+  "contactInfo": {
+    "email": "contact@360degreesrealestate.in",
+    "phone": "+91 9412910094",
+    "whatsapp": "+919412910094"
+  },
+  "operatingHours": {
+    "weekdays": "Monday - Saturday: 9 AM - 6 PM",
+    "weekends": "Sunday: By Appointment Only"
+  },
+  "faqSection": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "",
+    "faqs": [
+      {
+        "question": "How can I schedule a property visit?",
+        "answer": "You can schedule a property visit by filling out our contact form, calling us directly, or sending us an email. Our team will arrange a convenient time for you to visit the property"
+      },
+      {
+        "question": "Do you offer virtual property tours?",
+        "answer": "Yes, we specialize in 360° virtual tours that allow you to explore properties remotely. These tours provide an immersive experience of the property without requiring a physical visit"
+      },
+      {
+        "question": "What areas in Uttarakhand do you cover?",
+        "answer": "We primarily focus on properties in the Kumaon region, including Nainital, Almora, Bhimtal, Mukteshwar, and Ranikhet. We also have select listings in the Garhwal region"
+      },
+      {
+        "question": "Can you help with property documentation?",
+        "answer": "Absolutely. Our legal team provides comprehensive documentation assistance, including title verification, registration support, and contract preparation to ensure a smooth transaction"
+      }
+    ]
+  },
+  "updatedAt": "2025-04-19T09:45:56.013Z"
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600">
+  <!-- Background Sky -->
+  <rect width="1600" height="600" fill="#87CEEB" />
+  
+  <!-- Sun -->
+  <circle cx="1300" cy="120" r="60" fill="#FFD700" />
+  
+  <!-- Distant Mountains (Blue) -->
+  <polygon points="0,600 0,350 200,400 400,320 600,380 800,300 1000,380 1200,320 1400,400 1600,350 1600,600" fill="#5D8AA8" />
+  
+  <!-- Middle Mountains (Medium Blue) -->
+  <polygon points="0,600 0,400 100,450 300,380 500,450 700,350 900,420 1100,380 1300,450 1500,400 1600,430 1600,600" fill="#4682B4" />
+  
+  <!-- Foreground Mountains (Dark Blue) -->
+  <polygon points="0,600 50,480 200,530 350,450 500,520 650,460 800,530 950,470 1100,540 1250,480 1400,550 1550,470 1600,500 1600,600" fill="#0F2C5A" />
+  
+  <!-- Snow Peaks -->
+  <polygon points="200,530 220,510 240,525 350,450 370,435 390,445 500,520 520,500 540,510 650,460 670,440 690,450 800,530 820,510 840,520 950,470 970,450 990,465 1100,540 1120,520 1140,535 1250,480 1270,460 1290,475 1400,550 1420,530 1440,545" fill="#FFFFFF" />
+  
+  <!-- Text -->
+  <text x="800" y="150" font-family="Arial, sans-serif" font-size="60" font-weight="bold" text-anchor="middle" fill="#0F2C5A">Uttarakhand Mountains</text>
+  <text x="800" y="220" font-family="Arial, sans-serif" font-size="30" text-anchor="middle" fill="#333">Discover the beauty of the Himalayas</text>
+</svg> 

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A3D62;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E5F8C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="600" fill="url(#skyGradient)"/>
+  
+  <!-- Mountains -->
+  <polygon points="0,350 150,250 300,320 450,240 600,350 750,200 900,280 1050,180 1200,300 1200,600 0,600" 
+           fill="#0F2C5A" opacity="0.9"/>
+  
+  <!-- Foreground elements -->
+  <rect x="100" y="400" width="250" height="200" fill="#0A2E4A"/>
+  <polygon points="50,400 225,300 400,400" fill="#0D3D6A"/>
+  <rect x="150" y="450" width="40" height="60" fill="#FFFFFF"/>
+  <rect x="250" y="450" width="40" height="60" fill="#FFFFFF"/>
+  
+  <!-- Additional decorative elements -->
+  <circle cx="900" cy="100" r="40" fill="#FFFFFF" opacity="0.2"/>
+  <circle cx="950" cy="80" r="20" fill="#FFFFFF" opacity="0.3"/>
+  <circle cx="850" cy="120" r="15" fill="#FFFFFF" opacity="0.2"/>
+  
+  <!-- Text overlay -->
+  <text x="600" y="150" font-family="Arial" font-size="50" font-weight="bold" fill="#FFFFFF" text-anchor="middle">UTTARAKHAND PROPERTIES</text>
+  <text x="600" y="200" font-family="Arial" font-size="24" fill="#FFFFFF" text-anchor="middle">Find Your Dream Home in the Himalayas</text>
+</svg> 

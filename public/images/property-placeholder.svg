@@ -1,0 +1,25 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0F2C5A" />
+  
+  <!-- Pattern -->
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="#0A245C" />
+      <path d="M 0,0 L 20,20 M 20,0 L 0,20" stroke="#081B3A" stroke-width="1" />
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grid)" opacity="0.8" />
+  
+  <!-- House icon -->
+  <g transform="translate(200, 100)" fill="#D4AF37">
+    <path d="M 0,-40 L 50,0 L 50,40 L -50,40 L -50,0 Z" />
+    <rect x="-15" y="15" width="30" height="25" />
+    <rect x="-40" y="15" width="15" height="15" />
+    <rect x="25" y="15" width="15" height="15" />
+  </g>
+  
+  <!-- Text -->
+  <text x="250" y="190" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">UTTARAKHAND PROPERTY</text>
+  <text x="250" y="220" font-family="Arial, sans-serif" font-size="14" fill="#D4AF37" text-anchor="middle">Image Coming Soon</text>
+</svg> 

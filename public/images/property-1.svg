@@ -1,0 +1,34 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F2C5A" />
+      <stop offset="100%" stop-color="#0A245C" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#skyGradient)" />
+  
+  <!-- Mountains in background -->
+  <path d="M0,140 L80,60 L160,120 L240,40 L320,90 L400,50 L500,110 L500,300 L0,300 Z" fill="#081B3A" />
+  <path d="M0,180 L120,120 L200,150 L280,100 L360,140 L440,110 L500,150 L500,300 L0,300 Z" fill="#0A245C" />
+  
+  <!-- Villa/House -->
+  <g transform="translate(180, 150)">
+    <!-- Main house structure -->
+    <rect x="-80" y="-40" width="160" height="70" fill="#D4AF37" />
+    <polygon points="-90,-40 90,-40 0,-90" fill="#D4AF37" />
+    
+    <!-- Windows and door -->
+    <rect x="-60" y="-20" width="20" height="20" fill="#0F2C5A" />
+    <rect x="-20" y="-20" width="20" height="20" fill="#0F2C5A" />
+    <rect x="20" y="-20" width="20" height="20" fill="#0F2C5A" />
+    <rect x="-15" y="0" width="30" height="30" fill="#0F2C5A" />
+    
+    <!-- Small garden -->
+    <rect x="-80" y="30" width="160" height="20" fill="#1A3E73" />
+  </g>
+  
+  <!-- Text -->
+  <text x="250" y="240" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">MOUNTAIN VIEW VILLA</text>
+  <text x="250" y="265" font-family="Arial, sans-serif" font-size="14" fill="#D4AF37" text-anchor="middle">Nainital, Uttarakhand</text>
+</svg>

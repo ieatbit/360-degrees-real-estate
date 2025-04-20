@@ -1,0 +1,42 @@
+[
+  {
+    "id": "5a95d7de-aa77-4296-99cd-4aca555754be",
+    "name": "2322",
+    "email": "wewe@gmail.com",
+    "phone": "322323322323",
+    "subject": "property-inquiry",
+    "message": "dcdccds",
+    "createdAt": "2025-04-17T17:53:41.989Z",
+    "status": "new"
+  },
+  {
+    "id": "8c6c418b-99db-4570-bace-e64436cf4a16",
+    "name": "edqqd",
+    "email": "ewwew@gmail.com",
+    "phone": "2332233223",
+    "subject": "investment-advice",
+    "message": "acac",
+    "createdAt": "2025-04-17T18:13:20.607Z",
+    "status": "new"
+  },
+  {
+    "id": "c382a2df-ea5d-47c4-8d02-1af124b936a5",
+    "name": "kjadbkjcba",
+    "email": "kjbcda@gmail.com",
+    "phone": "987642964539",
+    "subject": "property-inquiry",
+    "message": "jkdbcakcugajcga",
+    "createdAt": "2025-04-18T10:57:20.225Z",
+    "status": "new"
+  },
+  {
+    "id": "aad4d941-584f-4bdf-999d-843f072dd29f",
+    "name": "Manu Joshi",
+    "email": "manujoshiium@gmail.com",
+    "phone": "24454454545",
+    "subject": "property-inquiry",
+    "message": "ewffwfwfnkacjnkjcnkadjnkdjnc",
+    "createdAt": "2025-04-19T19:01:05.462Z",
+    "status": "new"
+  }
+]

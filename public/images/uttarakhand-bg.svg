@@ -1,0 +1,68 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient background -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#081B3A" />
+      <stop offset="100%" stop-color="#0F2C5A" />
+    </linearGradient>
+    
+    <!-- Patterns for texture -->
+    <pattern id="mountainTexture" width="200" height="200" patternUnits="userSpaceOnUse">
+      <rect width="200" height="200" fill="#081B3A" />
+      <path d="M0,0 L200,200 M200,0 L0,200" stroke="#0A245C" stroke-width="0.5" opacity="0.3" />
+    </pattern>
+    
+    <!-- Star pattern -->
+    <pattern id="starPattern" width="400" height="400" patternUnits="userSpaceOnUse">
+      <rect width="400" height="400" fill="transparent" />
+      <circle cx="20" cy="30" r="0.8" fill="white" opacity="0.6" />
+      <circle cx="120" cy="50" r="0.6" fill="white" opacity="0.5" />
+      <circle cx="200" cy="80" r="1" fill="white" opacity="0.7" />
+      <circle cx="280" cy="40" r="0.7" fill="white" opacity="0.5" />
+      <circle cx="350" cy="90" r="0.9" fill="white" opacity="0.6" />
+      <circle cx="60" cy="120" r="0.8" fill="white" opacity="0.5" />
+      <circle cx="160" cy="180" r="0.6" fill="white" opacity="0.4" />
+      <circle cx="240" cy="140" r="1" fill="white" opacity="0.7" />
+      <circle cx="320" cy="200" r="0.7" fill="white" opacity="0.5" />
+      <circle cx="380" cy="160" r="0.5" fill="white" opacity="0.4" />
+      <circle cx="40" cy="250" r="0.8" fill="white" opacity="0.6" />
+      <circle cx="100" cy="280" r="0.6" fill="white" opacity="0.5" />
+      <circle cx="180" cy="240" r="1" fill="white" opacity="0.7" />
+      <circle cx="260" cy="300" r="0.7" fill="white" opacity="0.5" />
+      <circle cx="340" cy="270" r="0.9" fill="white" opacity="0.6" />
+      <circle cx="25" cy="350" r="0.8" fill="white" opacity="0.5" />
+      <circle cx="120" cy="380" r="0.7" fill="white" opacity="0.6" />
+      <circle cx="210" cy="320" r="0.6" fill="white" opacity="0.4" />
+      <circle cx="290" cy="370" r="0.9" fill="white" opacity="0.7" />
+      <circle cx="370" cy="340" r="0.7" fill="white" opacity="0.5" />
+    </pattern>
+  </defs>
+  
+  <!-- Sky with stars -->
+  <rect width="100%" height="100%" fill="url(#skyGradient)" />
+  <rect width="100%" height="75%" fill="url(#starPattern)" />
+  
+  <!-- Moon -->
+  <circle cx="300" cy="200" r="80" fill="#D4AF37" opacity="0.8" />
+  <circle cx="280" cy="180" r="60" fill="#E5C158" opacity="0.9" />
+  
+  <!-- Distant mountain ranges (5 layers) -->
+  <path d="M0,450 L200,550 L400,480 L600,580 L800,500 L1000,600 L1200,520 L1400,580 L1600,500 L1800,550 L1920,500 L1920,1080 L0,1080 Z" fill="#061428" opacity="0.7" />
+  <path d="M0,500 L300,600 L600,520 L900,620 L1200,540 L1500,630 L1800,550 L1920,580 L1920,1080 L0,1080 Z" fill="#081B3A" opacity="0.8" />
+  <path d="M0,580 L400,680 L800,600 L1200,700 L1600,620 L1920,680 L1920,1080 L0,1080 Z" fill="#0A245C" opacity="0.9" />
+  <path d="M0,680 L480,760 L960,680 L1440,780 L1920,700 L1920,1080 L0,1080 Z" fill="#0F2C5A" fill-opacity="0.95" />
+  <path d="M0,780 L640,880 L1280,780 L1920,880 L1920,1080 L0,1080 Z" fill="#1A3E73" fill-opacity="1" />
+  
+  <!-- Foreground mountains with texture -->
+  <path d="M0,700 L200,850 L400,750 L600,900 L800,800 L1000,930 L1200,830 L1400,950 L1600,870 L1800,980 L1920,920 L1920,1080 L0,1080 Z" fill="url(#mountainTexture)" />
+  
+  <!-- Snow-capped peaks -->
+  <path d="M200,850 L220,830 L240,845 L260,825 L280,840 L300,820 L320,835 L340,815 L360,830 L380,810 L400,750" fill="white" opacity="0.7" />
+  <path d="M600,900 L620,880 L640,890 L660,870 L680,885 L700,865 L720,880 L740,860 L760,875 L780,855 L800,800" fill="white" opacity="0.8" />
+  <path d="M1000,930 L1020,910 L1040,920 L1060,900 L1080,915 L1100,895 L1120,910 L1140,890 L1160,905 L1180,885 L1200,830" fill="white" opacity="0.7" />
+  <path d="M1400,950 L1420,930 L1440,940 L1460,920 L1480,935 L1500,915 L1520,930 L1540,910 L1560,925 L1580,905 L1600,870" fill="white" opacity="0.8" />
+  
+  <!-- Subtle clouds -->
+  <path d="M100,580 C150,560 200,570 250,580 C300,590 350,580 400,570 C450,560 500,570 550,580 C600,590 650,570 700,560" fill="white" opacity="0.2" />
+  <path d="M1200,620 C1250,600 1300,610 1350,620 C1400,630 1450,620 1500,610 C1550,600 1600,610 1650,620 C1700,630 1750,610 1800,600" fill="white" opacity="0.15" />
+</svg> 

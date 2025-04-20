@@ -1,0 +1,31 @@
+{
+  "id": "home-page",
+  "heroTitle": "Search Your Real Estate Requirement",
+  "heroSubtitle": "Find luxury properties in Uttarakhand with stunning Himalaya views",
+  "heroBackgroundImage": "/uploads/home-content/section-hero-1744616108933.jpg?t=1744616108933",
+  "featuredSectionTitle": "Featured Properties",
+  "whyChooseUsTitle": "Why Choose Our Properties?",
+  "whyChooseUsFeatures": [
+    {
+      "title": "Prime Locations",
+      "description": "All our properties are situated in the most scenic and convenient locations for your dream home",
+      "icon": "location"
+    },
+    {
+      "title": "Competitive Pricing",
+      "description": "We offer the best value for your investment with transparent pricing and no hidden fees",
+      "icon": "price"
+    },
+    {
+      "title": "Verified Properties",
+      "description": "Every listing is thoroughly verified for authenticity and legal compliance",
+      "icon": "verify"
+    }
+  ],
+  "aboutSectionTitle": "About Uttarakhand Real Estate",
+  "aboutSectionContent": "Discover the beauty of owning property in Uttarakhand, where nature meets luxury. Our curated collection of properties provides the perfect blend of modern amenities and natural splendor",
+  "seoTitle": "Luxury Properties in Uttarakhand | Find Your Dream Home",
+  "seoDescription": "Explore premium real estate in Uttarakhand. Find luxury homes, plots, and investment properties with stunning mountain views",
+  "updatedAt": "2025-04-19T18:03:44.305Z",
+  "customSections": []
+}
