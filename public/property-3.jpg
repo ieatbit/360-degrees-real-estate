@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#4F772D"/>
+  <text x="400" y="300" font-family="Arial" font-size="30" fill="#FFFFFF" text-anchor="middle">Valley View Bungalow</text>
+  <text x="400" y="350" font-family="Arial" font-size="20" fill="#FFFFFF" text-anchor="middle">Almora, Uttarakhand</text>
+  <rect x="250" y="150" width="300" height="150" fill="#D4AF37"/>
+  <polygon points="200,150 400,50 600,150" fill="#8B4513"/>
+  <rect x="300" y="200" width="50" height="70" fill="#FFFFFF"/>
+  <rect x="400" y="200" width="50" height="70" fill="#FFFFFF"/>
+  <rect x="350" y="270" width="100" height="30" fill="#FFFFFF"/>
+  <rect x="200" y="300" width="400" height="20" fill="#8B4513"/>
+  <rect x="220" y="320" width="30" height="80" fill="#8B4513"/>
+  <rect x="550" y="320" width="30" height="80" fill="#8B4513"/>
+</svg>
